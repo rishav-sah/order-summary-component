@@ -131,5 +131,6 @@ body {
 
   .summary__container {
     min-width: 375px;
+    transform: scale(0.8);
   }
 }

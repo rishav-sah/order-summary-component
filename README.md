@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/desktop/desktop-preview.jpg)
+![Desktop Screenshot](design\desktop-preview.jpg)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://wizardly-goldwasser-2aace5.netlify.app/)
 
 ## My process
 
