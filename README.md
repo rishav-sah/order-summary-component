@@ -6,7 +6,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -24,13 +23,8 @@ Users should be able to:
 
 - See hover states for interactive elements
 
-### Screenshot
-
-![Desktop Screenshot]("./design/desktop-preview.jpg")
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://wizardly-goldwasser-2aace5.netlify.app/)
 
 ## My process
