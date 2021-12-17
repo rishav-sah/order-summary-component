@@ -1,0 +1,137 @@
+:root {
+  /* Primary */
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+
+  /* Neutral */
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+/* Summary Section */
+.summary {
+  align-items: center;
+  background: var(--pale-blue) url("../images/pattern-background-desktop.svg")
+    no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1440px;
+  min-height: 100vh;
+}
+
+/* summary card */
+
+.summary__container {
+  width: 375px;
+  background: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin: 1.5rem;
+}
+
+.summary__hero {
+  overflow: hidden;
+}
+
+.summary__img {
+  width: 100%;
+}
+
+.summary__title {
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.summary__content {
+  margin: 1rem 0;
+  padding: 0 1rem;
+  text-align: center;
+  color: var(--desaturated-blue);
+}
+
+.summary__plan {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background: var(--very-pale-blue);
+  padding: 1rem 0;
+  margin: 0 2rem;
+  border-radius: 0.5rem;
+  align-items: center;
+}
+
+.summary__plan__cost {
+  color: var(--dark-blue);
+}
+
+.summary__plan__change {
+  color: var(--bright-blue);
+  font-weight: 700;
+}
+
+.summary__plan__change:hover {
+  color: var(--desaturated-blue);
+  text-decoration: none;
+}
+
+.summary__btn--center {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.summary__btn {
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 700;
+  padding: 0.5rem 5rem;
+  background: var(--bright-blue);
+  color: var(--very-pale-blue);
+  border-radius: 0.5rem;
+}
+
+.summary__btn:hover {
+  background-color: var(--desaturated-blue);
+}
+
+.summary__cancel {
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--desaturated-blue);
+}
+
+.summary__cancel:hover {
+  color: var(--dark-blue);
+}
+
+@media screen and (max-width: 375px) {
+  .summary {
+    background-image: none;
+    background-color: var(--pale-blue);
+  }
+
+  .summary__container {
+    min-width: 375px;
+    margin: 0 auto;
+    transform: scale(0.8);
+  }
+}
